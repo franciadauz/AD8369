@@ -4,10 +4,13 @@
     Release pushbutton
     Turn potentiometer to select the value of gain setting
     Quickly press pushbutton to set gain value
+    
+    Written by: Francia Dauz 
+    29Feb2016
 ******---------------------------------------------******/
 //pin definitions
 const int sync= 9; //pin for 100Hz pulse
-const int Gain_CLOCK =12; //pin for 10KHz SCK
+const int Gain_CLOCK =12; //pin SCK
 const int Gain_S1=13; //Slave Select
 const int Gain_S2=10;// pin 9 for CS2
 const int Gain_DATA=11;//MOSI
